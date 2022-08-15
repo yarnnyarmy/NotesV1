@@ -1,0 +1,9 @@
+Directions for the system
+
+1. Create 4 tables in a database name notes:
+	User table will have UserId, UserName, Password, Create
+	Project table will have ProjectId, ProjectName
+	Note table will have NoteId, Creation, Notetext, ProjectName, AttributeName
+	Attribute table will have AttributeId, AttributeName
+
+After creating a username and password, a token will be created. The other services will be available after the token is created.
